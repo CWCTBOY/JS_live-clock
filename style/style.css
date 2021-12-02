@@ -1,4 +1,6 @@
-@import "clock.css";
+@import "clock-frame.css";
+@import "clock-marker.css";
+@import "clock-innerface.css";
 
 body {
   background-color: #282828;
@@ -6,8 +8,10 @@ body {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h1 {
+  margin: 80px;
 }

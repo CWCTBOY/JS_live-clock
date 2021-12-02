@@ -1,0 +1,45 @@
+.clock-markingface {
+  width: 380px;
+  height: 380px;
+  background-color: inherit;
+  border-radius: inherit;
+  position: relative;
+  z-index: 1;
+}
+.marker-0h {
+  width: 3px;
+  height: inherit;
+  position: absolute;
+  right: 49.5%;
+  overflow: hidden;
+  background-color: rgba(0, 214, 197, 0.8);
+}
+.marker-1h {
+  transform: rotate(30deg);
+}
+.marker-2h {
+  transform: rotate(60deg);
+}
+.marker-3h {
+  width: 3px;
+  height: inherit;
+  position: absolute;
+  right: 49.5%;
+  overflow: hidden;
+  background-color: rgba(0, 214, 197, 0.8);
+  transform: rotate(90deg);
+}
+.marker-4h {
+  transform: rotate(120deg);
+}
+.marker-5h {
+  transform: rotate(150deg);
+}
+.marker-1h, .marker-2h, .marker-4h, .marker-5h {
+  background-color: rgba(255,255,255,0.8);
+  width: 3px;
+  height: inherit;
+  position: absolute;
+  right: 49.5%;
+  overflow: hidden;
+}

@@ -1,3 +1,10 @@
+#clock-centerpoint {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 3px solid blue;
+}
+
 .clock-innerface {
   width: 340px;
   height: 340px;
@@ -5,4 +12,38 @@
   border-radius: 50%;
   position: absolute;
   z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer-box__h, .pointer-box__m, .pointer-box__s {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pointer-hour {
+  width: 10px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: black;
+  margin-top: 60px;
+}
+
+.pointer-min {
+  width: 5px;
+  height: 150px;
+  border-radius: 2.5px;
+  background-color: rgba(0, 214, 197, 0.8);
+  margin-top: 30px;
+}
+
+.pointer-sec {
+  width: 2px;
+  height: 180px;
+  background-color: red;
 }

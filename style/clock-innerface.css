@@ -25,11 +25,20 @@
   display: flex;
   justify-content: center;
 }
+.pointer-box__h {
+  
+}
+.pointer-box__m {
+  
+}
+.pointer-box__s {
+  
+}
 
 .pointer-hour {
   width: 10px;
   height: 120px;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: black;
   margin-top: 60px;
 }

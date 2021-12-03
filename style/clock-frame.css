@@ -12,5 +12,13 @@
   align-items: center;
   position: relative;
   z-index: 0;
+  -webkit-animation: clock 2s ease-in-out forwards;
+}
+
+@-webkit-keyframes clock {
+  0%{display: none;}
+  100%{
+    
+  }
 }
 

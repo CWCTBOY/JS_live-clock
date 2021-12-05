@@ -20,7 +20,6 @@ function rotatePointer() {
   pointHour.style.transform = `rotate(${hourDeg}deg)`;
   pointMin.style.transform = `rotate(${minDeg}deg)`;
   pointSec.style.transform = `rotate(${secDeg}deg)`;
-  console.log((Date.now() / (1000 * 60 * 60)) % 24 - 3);
 }
 setInterval(rotatePointer, 0.00001);
 
